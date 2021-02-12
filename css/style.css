@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+.header_container{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 13vh;
+    border-bottom: 4px solid coral;
+}
+.header_container img{
+    height: 13vh;
+}
+.items{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    font-size: 1.3em;
+}
+.items:hover{
+    color: coral;
+}
+.lists{
+    list-style-type: none;
+    display: flex;
+    padding: 1em;
+}
+button{
+    margin-top: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    background-color: coral;
+    color: white;
+    font-weight: 800;
+}
+.hero{
+    background-image: url('../images/11.jpg');
+    height: 70vh;
+}
+h1{
+    margin: 0;
+    font-size: 2.5em;
+    padding-top: 30vh;
+    font-family: 'Raleway', sans-serif;
+
+}
+.mask{
+    background-color: rgba(0, 0,0,0.4);
+    height: 70vh;
+    text-align: center;
+}
+.mask a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 1em;
+    display: block;
+    width: 10vw;
+    margin: 5vh  auto;
+    border-radius: 1em;
+}
+.mask a:hover{
+    color: coral;
+    background-color: white;
+}
+h2{
+    margin: 0;
+    font-size: 2.3em;
+    padding: 1em;
+    font-family: 'Lobster', cursive;
+}
+.paper_layout{
+    text-align: center;
+   background-color: aquamarine;
+   height: 90vh;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #888888;
+}
+.img_ht{
+    width: 15vw;
+    height: 20vh;
+}
+.layout{
+    margin-top: 2em;
+    height: 60vh;
+    width: 30vw;
+    background-color: aliceblue;
+    border-radius: 1em;
+    box-shadow: 5px 5px 15px red;
+}
+.layout a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 1em;
+    border-radius: 1em;
+}
+.layout p{
+    margin-bottom: 2em;
+}
+footer{
+    background-color: greenyellow;
+    border-top: 3px solid coral;
+    padding: 0.5em;
+    text-align: center;
+}
+footer p{
+    font-size: 1.5em;
+}
